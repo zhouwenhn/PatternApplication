@@ -5,9 +5,9 @@ import java.util.logging.Logger;
 /**
  * Created by zhouwen on 2019/6/18 16:37
  */
-public class BaseAImpl implements BaseA{
+public class RosterImpl implements AbstractInterface {
     @Override
-    public void method() {
-        Logger.getLogger("BaseAImpl").info("not null!!");
+    public void callName() {
+        Logger.getLogger("RosterImpl").info("not null!!");
     }
 }

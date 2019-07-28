@@ -5,10 +5,10 @@ import java.util.logging.Logger;
 /**
  * Created by zhouwen on 2019/6/18 16:33
  */
-public class NullPattern implements BaseA {
+public class NullImpl空对象 implements AbstractInterface {
 
     @Override
-    public void method() {
-        Logger.getLogger("NullPattern").info("null pointer!!");
+    public void callName() {
+        Logger.getLogger("NullImpl空对象").info("null pointer!!");
     }
 }
